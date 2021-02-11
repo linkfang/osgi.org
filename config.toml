@@ -55,12 +55,18 @@ pluralizeListTitles = false
   name = "About"
   url = "/about"
   weight = 1
+ 
+[[menu.main]]
+  name = "About Us"
+  parent = "About"
+  url = "/about"
+  weight = 1
   
 [[menu.main]]
   name = "FAQ"
   parent = "About"
-  url = "/about"
-  weight = 1
+  url = "/about/faq"
+  weight = 2
 
 [[menu.sidebar]]
   name = "About"
@@ -70,10 +76,17 @@ pluralizeListTitles = false
   
 [[menu.sidebar]]
   parent ="about"
+  name = "About Us"
+  url = "/about"
+  pre = "<i data-feather=\"users\"></i>" # https://feathericons.com/
+  weight = 1
+  
+[[menu.sidebar]]
+  parent ="about"
   name = "FAQ"
   url = "/about/faq"
   pre = "<i data-feather=\"help-circle\"></i>" # https://feathericons.com/
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Members"

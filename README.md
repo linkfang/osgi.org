@@ -2,7 +2,7 @@
 
 The [https://www.osgi.org](https://www.osgi.org) website is generated with [Hugo](https://gohugo.io/documentation/).
 
-The OSGi Alliance is a worldwide consortium of technology innovators that advances a proven and mature process to create open specifications that enable the modular assembly of software built with Java technology. Modularity reduces software complexity; OSGi is the best model to modularize Java.
+The OSGi WG is a worldwide consortium of technology innovators that advances a proven and mature process to create open specifications that enable the modular assembly of software built with Java technology. Modularity reduces software complexity; OSGi is the best model to modularize Java.
 
 [![Build Status](https://travis-ci.org/eclipsefdn/osgi.org.svg?branch=master)](https://travis-ci.org/eclipsefdn/osgi.org)
 

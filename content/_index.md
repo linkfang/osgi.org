@@ -1,7 +1,7 @@
 ---
-title: "OSGi™ Alliance - The Dynamic Module System for Java"
-seo_title: "OSGi™ Alliance - The Dynamic Module System for Java"
-headline: "OSGi™ Alliance"
+title: "OSGi Working Group - The Dynamic Module System for Java"
+seo_title: "OSGi Working Group - The Dynamic Module System for Java"
+headline: "OSGi Working Group"
 tagline: "The Dynamic Module System for Java"
 date: 2020-09-08T11:00:00-04:00
 layout: "single"

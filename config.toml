@@ -1,6 +1,6 @@
 baseurl = "https://www.osgi.org/"
 DefaultContentLanguage = "en"
-title = "OSGi - The Dynamic Module System for Java"
+title = "OSGi Working Group - The Dynamic Module System for Java"
 theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
 disableKinds = []

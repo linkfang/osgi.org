@@ -113,3 +113,56 @@ pluralizeListTitles = false
   url = "/membership/members/"
   pre = "<i data-feather=\"zap\"></i>"
   weight = 2
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources"
+  weight = 1
+ 
+[[menu.main]]
+  name = "Documentation"
+  parent = "Resources"
+  url = "https://docs.osgi.org/"
+  weight = 1
+ 
+[[menu.main]]
+  name = "Specification Project"
+  parent = "Resources"
+  url = "https://projects.eclipse.org/projects/technology.osgi"
+  weight = 1
+
+[[menu.main]]
+  name = "Technology Project"
+  parent = "Resources"
+  url = "https://projects.eclipse.org/projects/technology.osgi-technology"
+  weight = 1
+
+[[menu.main]]
+  name = "What is OSGi?"
+  parent = "Resources"
+  url = "/resources/what-is-osgi"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Modularity"
+  parent = "Resources"
+  url = "/resources/modularity"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Complexity, Modularity and Business"
+  parent = "Resources"
+  url = "/resources/complexity-modularity-and-business"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Where to Start"
+  parent = "Resources"
+  url = "/resources/where-to-start"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Architecture"
+  parent = "Resources"
+  url = "/resources/architecture"
+  weight = 2

@@ -14,7 +14,7 @@ Install dependencies, build assets and start a webserver:
 npm install && hugo server
 ```
 
-You can find guidance on the page-level metadata [here](https://eclipsefdn.github.io/hugo-solstice-theme/), and examples of the assorted page types (components) [here](https://eclipsefdn.github.io/hugo-solstice-theme/components/).
+You can find guidance on the page-level metadata [here](https://eclipsefdn-hugo-solstice-theme.netlify.app/), and examples of the assorted page types (components) [here](https://eclipsefdn-hugo-solstice-theme.netlify.app/components/).
 
 ## Contributing
 
@@ -29,7 +29,7 @@ You can find guidance on the page-level metadata [here](https://eclipsefdn.githu
 
 This program and the accompanying materials are made available under the terms
 of the Eclipse Public License v. 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
+<https://www.eclipse.org/legal/epl-2.0>.
 
 SPDX-License-Identifier: EPL-2.0
 
@@ -41,7 +41,7 @@ Images, less and JavaScript files for the Eclipse Foundation look and feel.
 
 ### [EclipseFdn/hugo-solstice-theme](https://github.com/EclipseFdn/hugo-solstice-theme)
 
-Hugo theme of the Eclipse Foundation look and feel. 
+Hugo theme of the Eclipse Foundation look and feel.
 
 ## Bugs and feature requests
 
@@ -56,8 +56,8 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 
 ## Trademarks
 
-* Eclipse® is a Trademark of the Eclipse Foundation, Inc.
-* Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
+- Eclipse® is a Trademark of the Eclipse Foundation, Inc.
+- Eclipse Foundation is a Trademark of the Eclipse Foundation, Inc.
 
 ## Copyright and license
 

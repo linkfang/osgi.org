@@ -1,6 +1,6 @@
 baseurl = "https://www.osgi.org/"
 DefaultContentLanguage = "en"
-title = "OSGi Working Group - The Dynamic Module System for Java"
+title = "OSGi Working Group"
 theme = "eclipsefdn-hugo-solstice-theme"
 metaDataFormat = "yaml"
 disableKinds = []
@@ -10,14 +10,14 @@ pluralizeListTitles = false
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
-  description = "The OSGi WG is a worldwide consortium of technology innovators that advances a proven and mature process to create open specifications that enable the modular assembly of software built with Java technology. Modularity reduces software complexity; OSGi is the best model to modularize Java."
+  description = "The OSGi Working Group is a worldwide consortium of technology innovators that advances a proven and mature process to create open specifications that enable the modular assembly of software built with Java technology. Modularity reduces software complexity; OSGi is the best model to modularize Java."
   seo_title_suffix = " | The Eclipse Foundation"
   keywords = ["eclipse osgi", "osgi", "open source osgi", "dynamic module system", "java module"]
   gcse = "011805775785170369411:p3ec0igo0qq"
   js = "js/solstice.js"
   logo = "images/logo/osgi.png"
   styles = "css/styles.css"
-# favicon = ""
+  favicon = "images/favicon.ico"
 # share_img = ""
 # header_wrapper_class = ""
 # logo_width = ""
@@ -27,6 +27,9 @@ pluralizeListTitles = false
 #  call_for_action_text = "Download"
 #  call_for_action_url = "//www.eclipse.org/downloads/"
 #  call_for_action_icon = "fa-download"
+  twitter_url = "https://twitter.com/OSGiAlliance"
+  linkedin_url = "https://www.linkedin.com/groups/122461/"
+  youtube_url = "https://www.youtube.com/channel/UC2OOgfzdAv-yZsvvCKwzAow"
 
 [taxonomies]
   category = "categories"
@@ -35,21 +38,19 @@ pluralizeListTitles = false
   participation_level = "participation_levels"
 
 [Author]
-  name = "Christopher Guindon"
+  name = "OSGi Working Group"
   website = "https://www.eclipse.org"
   email = "webdev@eclipse-foundation.org"
-  facebook = "eclipse.org"
-  twitter = "EclipseFdn"
-  youtube = "EclipseFdn"
-  googleplus = "+Eclipse"
-  linkedin = "company/eclipse-foundation/"
+  twitter = "OSGiAlliance"
+  linkedin = "groups/122461/"
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
 
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [[menu.main]]
   name = "About"
@@ -111,4 +112,62 @@ pluralizeListTitles = false
   name = "Explore Our Members"
   url = "/membership/members/"
   pre = "<i data-feather=\"zap\"></i>"
+  weight = 2
+
+[[menu.main]]
+  name = "Resources"
+  url = "/resources"
+  weight = 1
+ 
+[[menu.main]]
+  name = "Documentation"
+  parent = "Resources"
+  url = "https://docs.osgi.org/"
+  weight = 1
+ 
+[[menu.main]]
+  name = "Specification Project"
+  parent = "Resources"
+  url = "https://projects.eclipse.org/projects/technology.osgi"
+  weight = 1
+
+[[menu.main]]
+  name = "Technology Project"
+  parent = "Resources"
+  url = "https://projects.eclipse.org/projects/technology.osgi-technology"
+  weight = 1
+
+[[menu.main]]
+  name = "What is OSGi?"
+  parent = "Resources"
+  url = "/resources/what-is-osgi"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Modularity"
+  parent = "Resources"
+  url = "/resources/modularity"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Complexity, Modularity and Business"
+  parent = "Resources"
+  url = "/resources/complexity-modularity-and-business"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Where to Start"
+  parent = "Resources"
+  url = "/resources/where-to-start"
+  weight = 2
+ 
+[[menu.main]]
+  name = "Architecture"
+  parent = "Resources"
+  url = "/resources/architecture"
+  weight = 2
+
+[[menu.main]]
+  name = "Blog"
+  url = "https://blog.osgi.org/"
   weight = 2

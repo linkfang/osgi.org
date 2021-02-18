@@ -26,7 +26,7 @@ If you are an experienced OSGi developer wanting to use more advanced or specifi
 - The technical work of specification development is done by the [OSGi Specification Project](https://projects.eclipse.org/projects/technology.osgi). Please consider getting involved with the project.
 - [Bnd/Bndtools](https://github.com/bndtools/bnd) is a really useful tool to familiarize yourself with if you already have some OSGi experience. Bnd/Bndtools includes Eclipse, Maven, and Gradle plugins. Bnd is the engine behind a number of popular software development tools that support OSGi. Bndtools is also worth exploring as a plugin to Eclipse that makes working with OSGi much easier.
 - Try out some of the different OSGi framework implementations. There are a number of commercial and open source options. The open source options include [Apache Felix](https://felix.apache.org/), [Eclipse Concierge](https://www.eclipse.org/concierge/), [Eclipse Equinox](https://www.eclipse.org/equinox), [Knopflerfish](http://www.knopflerfish.org/).
-- You can find out more by following the [OSGi Blog](https://blog.osgi.org/) or [OSGi Twitter account](https://twitter.com/OSGiAlliance), or by joining the [OSGi LinkedIn Group](https://www.linkedin.com/groups/122461/).
+- You can find out more by following the [OSGi Blog](https://blog.osgi.org/) or [OSGi Twitter account](https://twitter.com/OSGiWG), or by joining the [OSGi LinkedIn Group](https://www.linkedin.com/groups/122461/).
 
 ### Other Useful Information
 

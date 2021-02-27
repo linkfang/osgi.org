@@ -94,26 +94,6 @@ pluralizeListTitles = false
   url = "/membership"
   weight = 1
 
-[[menu.sidebar]]
-  name = "Members"
-  url = "/membership/"
-  weight = 2
-  identifier = "membership"
-  
-[[menu.sidebar]]
-  parent ="membership"
-  name = "Membership Benefits"
-  url = "/membership/#benefits"
-  pre = "<i data-feather=\"award\"></i>"
-  weight = 1
-
-[[menu.sidebar]]
-  parent ="membership"
-  name = "Explore Our Members"
-  url = "/membership/members/"
-  pre = "<i data-feather=\"zap\"></i>"
-  weight = 2
-
 [[menu.main]]
   name = "Resources"
   url = "/resources"

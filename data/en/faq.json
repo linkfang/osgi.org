@@ -8,11 +8,5 @@
       "@type": "Answer",
       "text": "<p>The OSGi Working Group drives the evolution and broad adoption of software technologies derived from or related to the OSGi Specification Project which is an open source initiative to create software specifications, compatible implementations and TCKs to enable development, deployment and management of embedded, server-side, and cloud-native applications by using software modularity to vastly improve the evolution, maintainability, and interoperability of applications and infrastructure.<p>"
     }
-  },{
-    "@type": "Question",
-    "name": "q1",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "<p>@todo<p>"    }
   }]
 }

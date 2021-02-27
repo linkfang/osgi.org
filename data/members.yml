@@ -1,8 +1,0 @@
-types:
-  - name: Membership Level 1 (@todo update this)
-    items:
-       -
-         image: /images/members/logo-ibm.png
-         title: IBM
-         link: https://www.eclipse.org/membership/showMember.php?member_id=656
-         img_width: 100

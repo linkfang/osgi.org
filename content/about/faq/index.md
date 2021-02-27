@@ -6,7 +6,7 @@ type: "faq"
 layout: "section"
 ---
   
-Last Updated: @todo
+Last Updated: February 26, 2021
 
 <br/>
 

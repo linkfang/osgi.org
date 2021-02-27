@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "npm run production && hugo --gc --minify -b https://eclipsefdn-osgi.netlify.app"
+command = "npm run production && hugo --gc --minify -b https://www.osgi.org"
 
 [build.environment]
 NODE_VERSION = "12.18.3"

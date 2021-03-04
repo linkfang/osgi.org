@@ -31,3 +31,27 @@ HUGO_VERSION = "0.76.5"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/xmlns/*"
+  to = "https://docs.osgi.org/xmlns/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/javadoc/*"
+  to = "https://docs.osgi.org/javadoc/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/specification/*"
+  to = "https://docs.osgi.org/specification/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "/download/*"
+  to = "https://docs.osgi.org/download/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect

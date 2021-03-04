@@ -31,3 +31,9 @@ HUGO_VERSION = "0.76.5"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/xmlns/*"
+  to = "https://docs.osgi.org/xmlns/:splat"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect

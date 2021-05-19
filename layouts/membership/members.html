@@ -4,7 +4,7 @@
 <h2 class="margin-bottom-30">Strategic members</h2>
 <div id="sc-members" class="members">
   {{ range sort (where .Site.RegularPages.ByTitle "Section" "membership") ".Title" }}
-  {{ if eq .Params.member_type "steering" }}
+  {{ if eq .Params.member_type "strategic" }}
   <div class="row members-info" id="member-{{ .Params.logo }}">
     <div class="col-md-4 col-md-offset-1 mb-logo margin-top-20">
       <a href="http://eclipse.org/membership/showMember.php?member_id={{ .Params.member_id }}">

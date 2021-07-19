@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 node --version
-npm -version
+yarn -version
 hugo version
 
-npm ci
+yarn install --frozen-lockfile
 hugo --gc --minify --buildFuture

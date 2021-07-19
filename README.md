@@ -11,7 +11,7 @@ The OSGi WG is a worldwide consortium of technology innovators that advances a p
 Install dependencies, build assets and start a webserver:
 
 ```bash
-npm install && hugo server
+yarn && hugo server
 ```
 
 You can find guidance on the page-level metadata [here](https://eclipsefdn-hugo-solstice-theme.netlify.app/), and examples of the assorted page types (components) [here](https://eclipsefdn-hugo-solstice-theme.netlify.app/components/).

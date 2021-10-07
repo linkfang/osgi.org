@@ -91,7 +91,7 @@ pluralizeListTitles = false
 
 [[menu.main]]
   name = "Members"
-  url = "/membership"
+  url = "/membership/members/"
   weight = 1
 
 [[menu.main]]

@@ -6,9 +6,12 @@ keywords: ["Eclipse OSGi members", "OSGi open source members", "open source OSGi
 aliases:
     - /members/
     - /member/
-layout: "members"
 outputs:
     - HTML
     - JSON
     - RSS
+hide_sidebar: true
+container: "container-fluid container"
 ---
+
+{{< all-members >}}
